@@ -8,5 +8,6 @@ export const Colors = {
     icons: {},
     texts: {
         primary: "#AE79F1",
+        white: "#ffffff",
     },
 };
