@@ -6,4 +6,7 @@ export const Colors = {
     },
     secondarys: {},
     icons: {},
+    texts: {
+        primary: "#AE79F1",
+    },
 };
