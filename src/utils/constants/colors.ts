@@ -6,7 +6,9 @@ export const Colors = {
         gray: "#282828",
         blueLight: "#C0F0FF",
     },
-    secondarys: {},
+    secondarys: {
+        greenLight: "#e9edc9",
+    },
     icons: {},
     texts: {
         primary: "#AE79F1",

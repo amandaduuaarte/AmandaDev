@@ -29,7 +29,7 @@ export const Content = styled.div`
 `;
 
 export const Card = styled.div`
-    height: 400px;
+    height: 300px;
     width: 30%;
     background: ${Colors.primarys.gray};
     border-radius: 24px;

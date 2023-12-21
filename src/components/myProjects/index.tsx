@@ -11,7 +11,7 @@ export function MyProjects() {
                 <Card />
             </Content>
 
-            <Text>Alguns dos meus artigos</Text>
+            <Text>Blog</Text>
             <Content>
                 <Card />
                 <Card />
