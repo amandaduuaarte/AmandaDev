@@ -68,7 +68,7 @@ export const ExperienceContainer = styled.div`
 `;
 
 export const JobTech = styled(ExperienceContainer)`
-    align-self: flex-start;
+    align-self: center;
     gap: 1rem;
 
     @media (max-width: ${Screens.smartphone.max}px) {
@@ -87,10 +87,10 @@ export const ExperienceContent = styled.div`
 export const Card = styled.div`
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 100%;
     height: auto;
     justify-content: space-between;
-    text-align: start;
+    text-align: center;
     margin-bottom: 2rem;
 
     @media (max-width: ${Screens.smartphone.max}px) {
@@ -115,7 +115,8 @@ export const CardContent = styled.div`
 `;
 
 export const JobDescription = styled.div`
-    width: 50%;
+    width: 80%;
+    align-self: center;
     padding-top: 1rem;
 
     @media (max-width: ${Screens.smartphone.max}px) {
@@ -135,7 +136,6 @@ export const Image = styled.img<ImageProps>`
         height: 4rem;
     }
     @media (max-width: ${Screens.tablet.max}px) {
-        background: red;
         display: none;
     }
 `;

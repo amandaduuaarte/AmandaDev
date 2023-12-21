@@ -50,93 +50,10 @@ export function MyJorney() {
             </WorksContainer>
             <Content>
                 <Text bold size={32} color={Colors.texts.white}>
-                    Minha experiencia
+                    Trabalho atual
                 </Text>
             </Content>
             <ExperienceContainer>
-                <Card>
-                    <Text color={Colors.texts.greenLight} size={32}>
-                        Front-End Developer
-                    </Text>
-                    <Text color={Colors.texts.greenLight} size={20}>
-                        2018 - 2019
-                    </Text>
-                    <Text color={Colors.texts.greenLight} size={14}>
-                        Tijuca Alimentos
-                    </Text>
-                    <JobDescription>
-                        <Text color={Colors.texts.white} size={16}>
-                            While I was finishing my studies, Mediastream gave
-                            me the opportunity to work in a great team, with
-                            projects for big brands.
-                        </Text>
-                    </JobDescription>
-                    <JobTech>
-                        <CardContent>
-                            <p>React JS </p>
-                            <p>React JS </p>
-                            <p> React JS </p>
-                            <p>React JS </p>
-                        </CardContent>
-                    </JobTech>
-                </Card>
-
-                <Card>
-                    <Text color={Colors.texts.greenLight} size={32}>
-                        Front-End Developer
-                    </Text>
-                    <Text color={Colors.texts.greenLight} size={20}>
-                        2018 - 2019
-                    </Text>
-                    <Text color={Colors.texts.greenLight} size={14}>
-                        Tijuca Alimentos
-                    </Text>
-                    <JobDescription>
-                        <Text color={Colors.texts.white} size={16}>
-                            While I was finishing my studies, Mediastream gave
-                            me the opportunity to work in a great team, with
-                            projects for big brands.
-                        </Text>
-                    </JobDescription>
-                    <JobTech>
-                        <CardContent>
-                            <p>React JS </p>
-                            <p>React JS </p>
-                            <p> React JS </p>
-                            <p>React JS </p>
-                        </CardContent>
-                    </JobTech>
-                </Card>
-
-                <Card>
-                    <Text color={Colors.texts.greenLight} size={32}>
-                        Front-End Developer
-                    </Text>
-                    <Text color={Colors.texts.greenLight} size={20}>
-                        2018 - 2019
-                    </Text>
-                    <Text color={Colors.texts.greenLight} size={14}>
-                        Tijuca Alimentos
-                    </Text>
-                    <JobDescription>
-                        <Text color={Colors.texts.white} size={16}>
-                            While I was finishing my studies, Mediastream gave
-                            me the opportunity to work in a great team, with
-                            projects for big brands.
-                        </Text>
-                    </JobDescription>
-
-                    <JobTech>
-                        <CardContent>
-                            <Text>React Native</Text>
-                            <Text>HTML</Text>
-                            <Text>JavaScript</Text>
-                            <Text>CSS</Text>
-                            <Text>GIT</Text>
-                        </CardContent>
-                    </JobTech>
-                </Card>
-
                 <Card>
                     <Text color={Colors.texts.greenLight} size={32}>
                         Front-End Developer
