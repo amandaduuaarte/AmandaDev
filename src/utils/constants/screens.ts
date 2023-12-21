@@ -3,7 +3,7 @@ export const Screens = {
         min: 1024,
     },
     tablet: {
-        max: 1023,
+        max: 1040,
         min: 780,
     },
     smartphone: {
