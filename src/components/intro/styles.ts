@@ -28,11 +28,6 @@ export const ImageIlustration = styled.img<ImageProps>`
     }
 `;
 
-export const Image = styled.img<ImageProps>`
-    width: 50%;
-    margin: -1rem;
-`;
-
 export const Text = styled.p`
     color: ${Colors.texts.primary};
     font-size: 2.4rem;
@@ -70,4 +65,36 @@ export const ContainerLang = styled.div`
 export const Label = styled.p`
     color: ${Colors.texts.white};
     font-size: 0.9rem;
+`;
+
+export const SocialMedias = styled.div`
+    height: 240px;
+    width: 50px;
+    background: ${Colors.primarys.gray};
+    align-self: left;
+    margin-top: 10px;
+    display: flex;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    gap: 12px;
+    border-radius: 12px;
+
+    @media (max-width: ${Screens.smartphone.max}px) {
+        border-radius: 0;
+    }
+`;
+
+export const SocialMediaItem = styled.img`
+    height: 32px;
+    width: 32px;
+`;
+
+export const Row = styled.div`
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr 2fr;
+    width: 100vw;
+    align-items: center;
 `;

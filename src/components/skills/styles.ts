@@ -20,6 +20,7 @@ export const Content = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    width: 80%;
 
     @media (max-width: ${Screens.smartphone.max}px) {
         flex-direction: column;

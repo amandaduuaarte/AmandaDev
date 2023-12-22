@@ -9,9 +9,15 @@ import {
     ContainerLang,
     ImageIlustration,
     Label,
+    Row,
+    SocialMediaItem,
+    SocialMedias,
     Text,
 } from "./styles";
 import MeIlustration from "../../assets/images/me.png";
+import LinkedIn from "../../assets/icons/LinkedIn.svg";
+import Github from "../../assets/icons/github.svg";
+import Medium from "../../assets/icons/medium.svg";
 import { Colors } from "../../utils/constants";
 
 export function Intro() {
@@ -31,7 +37,20 @@ export function Intro() {
                     <Label>En-Us</Label>
                 </ContainerCheckBox>
             </ContainerLang>
-            <ImageIlustration src={MeIlustration} alt="ilustration_me" />
+            <Row>
+                <SocialMedias>
+                    <a href="https://www.linkedin.com/in/amanda-duarte-99545721b/">
+                        <SocialMediaItem src={LinkedIn} alt="LinkedIn_logo" />
+                    </a>
+                    <a href="https://github.com/amandaduuaarte">
+                        <SocialMediaItem src={Github} alt="Github_logo" />
+                    </a>
+                    <a href="https://medium.com/@amandaduuaarte">
+                        <SocialMediaItem src={Medium} alt="Medium_logo" />
+                    </a>
+                </SocialMedias>
+                <ImageIlustration src={MeIlustration} alt="ilustration_me" />
+            </Row>
 
             <Text>Hi. I'm Amanda.</Text>
             <Text>Software Developer.</Text>

@@ -10,6 +10,9 @@ export function Skills() {
         "React js",
         "React Native",
         "NodeJS",
+        "Jest",
+        "Git",
+        "Firebase",
     ];
     return (
         <Container>
@@ -21,8 +24,6 @@ export function Skills() {
                 {skills.map((skill) => (
                     <Tech>{skill}</Tech>
                 ))}
-                {/* Aqui na versão do mobile add show more chevron down e também na
-                minha experiencia */}
             </Content>
         </Container>
     );
