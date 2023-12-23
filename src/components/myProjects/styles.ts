@@ -88,9 +88,13 @@ export const Item = styled.div`
 `;
 
 export const Polaroid = styled.div`
+    display: flex;
     background: #fff;
     padding: 1rem;
     box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+    align-self: center;
+    justify-content: center;
+    text-align: center;
 
     &&:before {
         transform: rotate(4deg);
@@ -106,7 +110,8 @@ export const Caption = styled.div`
     font-size: 1.2rem;
     text-align: center;
     line-height: 2em;
-    background: #fff;
+    align-self: center;
+    justify-content: center;
 `;
 
 export const Header = styled.div``;

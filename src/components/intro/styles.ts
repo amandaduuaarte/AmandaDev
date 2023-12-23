@@ -94,7 +94,31 @@ export const SocialMediaItem = styled.img`
 export const Row = styled.div`
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-columns: 4fr 1fr 4fr;
     width: 100vw;
     align-items: center;
+`;
+
+export const SeeMoreContainer = styled.div`
+    display: flex;
+    margin-top: 5%;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+`;
+
+export const SeeMoreButton = styled.button`
+    width: 220px;
+    height: 60px;
+    border: none;
+    border-radius: 16px;
+    background-color: ${Colors.primarys.white};
+    color: ${Colors.texts.primary};
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+
+    &&:hover {
+        background-color: ${Colors.primarys.gray};
+    }
 `;
