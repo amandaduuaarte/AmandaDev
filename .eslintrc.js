@@ -30,6 +30,9 @@ module.exports = {
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
         "import/extensions": 0,
+        "@typescript-eslint/no-empty-function": 0,
+        "react/function-component-definition": 0,
+        "react/jsx-no-constructed-context-values": 0,
     },
     settings: {
         "import/resolver": {
