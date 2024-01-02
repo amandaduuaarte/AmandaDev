@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-import { Colors } from "../../utils/constants/colors";
 
 export const GlobalStyled = createGlobalStyle`
 * {
@@ -9,7 +8,6 @@ export const GlobalStyled = createGlobalStyle`
 }
 
 body{
-    background: ${Colors.primarys.black};
     font-family: 'Fira Code', monospace;
 }
 `;

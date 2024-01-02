@@ -8,4 +8,5 @@ export interface ColorsType {
     techsBackground: string;
     aboutMeBackground: string;
     pink: string;
+    boxShadow: string;
 }

@@ -70,7 +70,7 @@ export const Label = styled.p`
 export const SocialMedias = styled.div`
     height: 240px;
     width: 50px;
-    background: ${Colors.primarys.gray};
+    background: ${({ theme }) => theme.colors.sideBar};
     align-self: left;
     margin-top: 10px;
     display: flex;
@@ -79,7 +79,6 @@ export const SocialMedias = styled.div`
     align-items: center;
     flex-flow: column;
     gap: 12px;
-    border-radius: 12px;
 
     @media (max-width: ${Screens.smartphone.max}px) {
         border-radius: 0;

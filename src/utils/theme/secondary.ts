@@ -11,5 +11,6 @@ export const SecondaryTheme: DefaultTheme = {
         techsBackground: "#72DDF7",
         aboutMeBackground: "#EDEEC9",
         pink: "#FF98F5",
+        boxShadow: "#231942",
     },
 };

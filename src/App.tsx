@@ -1,8 +1,13 @@
 import React from "react";
-import { Home } from "./pages";
+import { ThemeProvider } from "./utils/theme/theme";
+import { Intro } from "./pages/intro";
 
 function App() {
-    return <Home />;
+    return (
+        <ThemeProvider>
+            <Intro />
+        </ThemeProvider>
+    );
 }
 
 export default App;

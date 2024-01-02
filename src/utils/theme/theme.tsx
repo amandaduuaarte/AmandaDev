@@ -1,6 +1,6 @@
 import React, { createContext, useState } from "react";
 
-import { ThemeProvider as ThemeProviderStyled } from "styled-components/native";
+import { ThemeProvider as ThemeProviderStyled } from "styled-components";
 import { PrimaryTheme } from "./primary";
 import { SecondaryTheme } from "./secondary";
 import { ChildrenDefaultProps } from "../../models/children";

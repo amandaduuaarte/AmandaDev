@@ -11,5 +11,6 @@ export const PrimaryTheme: DefaultTheme = {
         techsBackground: "#ABC4FF",
         aboutMeBackground: "#F4E285",
         pink: "#FF98F5",
+        boxShadow: "#9F86C0",
     },
 };
