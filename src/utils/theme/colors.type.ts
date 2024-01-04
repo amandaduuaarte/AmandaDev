@@ -9,4 +9,5 @@ export interface ColorsType {
     aboutMeBackground: string;
     pink: string;
     boxShadow: string;
+    phrase: string;
 }
