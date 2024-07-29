@@ -58,8 +58,14 @@ export function Intro() {
                     </SocialMedias>
                     <IntroCard>
                         <AboutMe>
-                            <Text>
-                                Hi! I’m Amanda. Mobile and Front-End Developer.{" "}
+                            <Text size={1.3}>
+                                Hey! I’m Amanda Duarte.👋
+                                <br />
+                                <br />
+                                Mobile Developer currently working with React
+                                Native, TypeScript, and other mobile
+                                technologies, with a strong interest in Kotlin
+                                application development.{" "}
                             </Text>
                         </AboutMe>
                         <LocationContainer>
@@ -77,6 +83,9 @@ export function Intro() {
                         "You never really understand a person until you consider
                         things from his point of view—” “Sir?” “—until you climb
                         into his skin and walk around in it."
+                        <br />
+                        <br />
+                        <p> - To Kill A Mockingbird</p>
                     </p>
                 </PhaseContainer>
             </Container>

@@ -20,6 +20,8 @@ interface ArrowContainerProps {
 }
 
 export const Container = styled.div`
+    background-image: url("src/assets/images/journeyBG.png");
+    background-size: contain;
     display: flex;
     flex-direction: column;
     margin: 6rem 12rem;

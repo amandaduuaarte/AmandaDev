@@ -9,5 +9,7 @@ export const GlobalStyled = createGlobalStyle`
 
 body{
     font-family: 'Fira Code', monospace;
+    background: ${({ theme }) => theme.colors.introBackground};
+    overflow: hidden;
 }
 `;

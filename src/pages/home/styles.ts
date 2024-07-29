@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { Screens } from "../../utils/constants";
 
 export const Container = styled.div`
+    gap: 16px;
     overflow: hidden;
 `;
 

@@ -28,7 +28,7 @@ export const Content = styled.div`
 `;
 
 export const Text = styled.p<TextProps>`
-    color: ${Colors.texts.white};
+    color: ${({ theme }) => theme.colors.black};
     font-size: ${({ size }) => size || 12}px;
     font-weight: ${({ bold }) => (bold ? 700 : 400)};
 `;

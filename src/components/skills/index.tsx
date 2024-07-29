@@ -1,28 +1,30 @@
 import React from "react";
 import { Container, Content, Tech, Text } from "./styles";
 
+const skills = [
+    "html",
+    "css",
+    "javascript",
+    "TypeScript",
+    "React js",
+    "React Native",
+    "NodeJS",
+    "Jest",
+    "Git",
+    "Firebase",
+];
 export function Skills() {
-    const skills = [
-        "html",
-        "css",
-        "javascript",
-        "TypeScript",
-        "React js",
-        "React Native",
-        "NodeJS",
-        "Jest",
-        "Git",
-        "Firebase",
-    ];
     return (
         <Container>
             <Text size={32} bold>
-                Techs
+                Skills
             </Text>
 
             <Content>
                 {skills.map((skill) => (
-                    <Tech>{skill}</Tech>
+                    <Tech>
+                        <Text>{skill}</Text>
+                    </Tech>
                 ))}
             </Content>
         </Container>

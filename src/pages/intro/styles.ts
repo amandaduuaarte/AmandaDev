@@ -57,7 +57,7 @@ export const ImageIllustration = styled.img<ImageProps>`
 
 export const Text = styled.p<TextProps>`
     font-size: ${({ size }) => size || 2}rem;
-    font-weight: 700;
+    font-weight: 600;
     text-align: justify;
     color: ${({ theme }) => theme.colors.black};
 `;

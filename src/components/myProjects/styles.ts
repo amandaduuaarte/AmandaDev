@@ -8,6 +8,7 @@ export const Text = styled.p`
     font-size: 2.4rem;
     font-weight: 700;
     text-align: center;
+    margin-top: 8rem;
 
     @media (max-width: ${Screens.smartphone.max}px) {
         font-size: 2rem;
