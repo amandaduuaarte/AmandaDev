@@ -123,12 +123,12 @@ export const AboutMe = styled.div`
 `;
 
 export const PhaseContainer = styled.div`
-    height: 180px;
+    height: auto;
     width: 60%;
     background: ${({ theme }) => theme.colors.boxShadow};
     display: flex;
     align-items: center;
-    padding: 0 32px;
+    padding: 32px;
     p {
         color: ${({ theme }) => theme.colors.phrase};
     }
