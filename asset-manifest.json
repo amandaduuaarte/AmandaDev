@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/amandaduuaarte/AmandaDev.github.io/static/js/main.8c455ae6.js",
-    "static/media/amanda.svg": "/amandaduuaarte/AmandaDev.github.io/static/media/amanda.f864ceb4e99ab6b74a0e1d552a4312ff.svg",
-    "static/media/me.png": "/amandaduuaarte/AmandaDev.github.io/static/media/me.9e3ec495769a95fff608.png",
-    "static/media/light.svg": "/amandaduuaarte/AmandaDev.github.io/static/media/light.aa7c98ab55a0e21e3a38f89f67b56226.svg",
-    "static/media/github.svg": "/amandaduuaarte/AmandaDev.github.io/static/media/github.8e88e1cf1a83b19d28ab39561c188c69.svg",
-    "static/media/medium.svg": "/amandaduuaarte/AmandaDev.github.io/static/media/medium.672f1c4b318d12512a1c15fa12cacf16.svg",
-    "static/media/map.svg": "/amandaduuaarte/AmandaDev.github.io/static/media/map.70a58da694656c86fef870577003d2e4.svg",
-    "static/media/LinkedIn.svg": "/amandaduuaarte/AmandaDev.github.io/static/media/LinkedIn.fcf744e0b6b39ab89444425a3d064318.svg",
-    "index.html": "/amandaduuaarte/AmandaDev.github.io/index.html",
-    "main.8c455ae6.js.map": "/amandaduuaarte/AmandaDev.github.io/static/js/main.8c455ae6.js.map"
+    "main.js": "/amandaduuaarte/AmandaDev/static/js/main.ae3a8521.js",
+    "static/media/amanda.svg": "/amandaduuaarte/AmandaDev/static/media/amanda.f864ceb4e99ab6b74a0e1d552a4312ff.svg",
+    "static/media/me.png": "/amandaduuaarte/AmandaDev/static/media/me.9e3ec495769a95fff608.png",
+    "static/media/light.svg": "/amandaduuaarte/AmandaDev/static/media/light.aa7c98ab55a0e21e3a38f89f67b56226.svg",
+    "static/media/github.svg": "/amandaduuaarte/AmandaDev/static/media/github.8e88e1cf1a83b19d28ab39561c188c69.svg",
+    "static/media/medium.svg": "/amandaduuaarte/AmandaDev/static/media/medium.672f1c4b318d12512a1c15fa12cacf16.svg",
+    "static/media/map.svg": "/amandaduuaarte/AmandaDev/static/media/map.70a58da694656c86fef870577003d2e4.svg",
+    "static/media/LinkedIn.svg": "/amandaduuaarte/AmandaDev/static/media/LinkedIn.fcf744e0b6b39ab89444425a3d064318.svg",
+    "index.html": "/amandaduuaarte/AmandaDev/index.html",
+    "main.ae3a8521.js.map": "/amandaduuaarte/AmandaDev/static/js/main.ae3a8521.js.map"
   },
   "entrypoints": [
-    "static/js/main.8c455ae6.js"
+    "static/js/main.ae3a8521.js"
   ]
 }
