@@ -52,7 +52,7 @@ export function Intro() {
                         </a>
                         <SocialMediaItem
                             src={Light}
-                            onClick={() => toggleTheme()}
+                            onClick={toggleTheme}
                             alt="change_theme_to_light"
                         />
                     </SocialMedias>
@@ -81,7 +81,7 @@ export function Intro() {
                 <PhaseContainer>
                     <p>
                         "You never really understand a person until you consider
-                        things from his point of view—” “Sir?” “—until you climb
+                        things from his point of view” “Sir?” “—until you climb
                         into his skin and walk around in it."
                         <br />
                         <br />

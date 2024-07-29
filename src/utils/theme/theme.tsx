@@ -17,7 +17,7 @@ const themes = {
 };
 
 export const ThemeContext = createContext({
-    theme: ThemeType.primary,
+    theme: ThemeType.secondary,
     toggleTheme: () => {},
 });
 
