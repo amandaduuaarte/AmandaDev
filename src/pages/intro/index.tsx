@@ -47,9 +47,6 @@ export function Intro() {
                         <a href="https://github.com/amandaduuaarte">
                             <SocialMediaItem src={Github} alt="Github_logo" />
                         </a>
-                        <a href="https://medium.com/@amandaduuaarte">
-                            <SocialMediaItem src={Medium} alt="Medium_logo" />
-                        </a>
                         <SocialMediaItem
                             src={Light}
                             onClick={toggleTheme}

@@ -49,6 +49,6 @@ export const Tech = styled.div`
     text-transform: uppercase;
 
     &:hover {
-        border: 4px solid ${Colors.primarys.purpleLight};
+        border: 4px solid ${Colors.primary.purpleLight};
     }
 `;

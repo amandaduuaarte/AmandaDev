@@ -30,7 +30,7 @@ export function Intro() {
                 <ContainerCheckBox>
                     <Checkbox isChecked>
                         <CheckIcon
-                            sx={{ color: Colors.primarys.white, fontSize: 12 }}
+                            sx={{ color: Colors.primary.white, fontSize: 12 }}
                         />
                     </Checkbox>
                     <Label> Pt-Br</Label>

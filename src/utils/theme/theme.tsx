@@ -24,7 +24,7 @@ export const ThemeContext = createContext({
 export const ThemeProvider: React.FunctionComponent<ChildrenDefaultProps> = ({
     children,
 }) => {
-    const [theme, setTheme] = useState(ThemeType.primary);
+    const [theme, setTheme] = useState(ThemeType.secondary);
 
     function toggleTheme() {
         if (theme === ThemeType.primary) {

@@ -102,7 +102,7 @@ export const Card = styled.div`
 `;
 
 export const CardContent = styled.div`
-    background-color: ${Colors.primarys.gray};
+    background-color: ${Colors.primary.gray};
     width: 12rem;
     height: 6rem;
     border-radius: 12px;

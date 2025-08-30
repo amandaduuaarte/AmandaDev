@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Colors } from "../../utils/constants";
 
 export const Container = styled.div`
-    background: ${Colors.primarys.gray};
+    background: ${Colors.primary.gray};
     height: 40vh;
     width: 80%;
     padding: 24px;
@@ -34,7 +34,7 @@ export const Description = styled(Text)`
 `;
 
 export const Line = styled.div`
-    border-bottom: 4px solid ${Colors.secondarys.greenLight};
+    border-bottom: 4px solid ${Colors.secondary.greenLight};
     width: 200px;
     height: 4px;
     align-self: center;

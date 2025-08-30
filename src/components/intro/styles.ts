@@ -46,7 +46,7 @@ export const Checkbox = styled.div<CheckboxProps>`
     width: 1rem;
     border-radius: 2px;
     background-color: ${({ isChecked }) =>
-        isChecked ? Colors.primarys.purpleLight : Colors.primarys.white};
+        isChecked ? Colors.primary.purpleLight : Colors.primary.white};
     align-items: center;
     justify-content: center;
     margin-right: 6px;
@@ -111,13 +111,13 @@ export const SeeMoreButton = styled.button`
     height: 60px;
     border: none;
     border-radius: 16px;
-    background-color: ${Colors.primarys.white};
+    background-color: ${Colors.primary.white};
     color: ${Colors.texts.primary};
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
 
     &&:hover {
-        background-color: ${Colors.primarys.gray};
+        background-color: ${Colors.primary.gray};
     }
 `;

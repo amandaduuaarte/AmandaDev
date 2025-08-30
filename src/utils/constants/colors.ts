@@ -1,12 +1,12 @@
 export const Colors = {
-    primarys: {
+    primary: {
         purpleLight: "#AE79F1",
         white: "#ffffff",
         black: "#000000",
         gray: "#282828",
         blueLight: "#C0F0FF",
     },
-    secondarys: {
+    secondary: {
         greenLight: "#e9edc9",
     },
     icons: {},

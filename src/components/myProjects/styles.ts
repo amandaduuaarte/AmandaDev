@@ -32,7 +32,7 @@ export const Content = styled.div`
 export const Card = styled.div`
     height: 280px;
     width: 25%;
-    background: ${Colors.primarys.gray};
+    background: ${Colors.primary.gray};
     border-radius: 24px;
     border: 10px solid white;
 
