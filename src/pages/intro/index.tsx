@@ -55,14 +55,16 @@ export function Intro() {
                     </SocialMedias>
                     <IntroCard>
                         <AboutMe>
-                            <Text size={1.3}>
+                            <Text size={1}>
                                 Hey! I’m Amanda Duarte.👋
                                 <br />
-                                <br />
-                                Mobile Developer currently working with React
-                                Native, TypeScript, and other mobile
-                                technologies, with a strong interest in Kotlin
-                                application development.{" "}
+                                <br />A passionate and results-driven Mobile
+                                Developer with a proven track record of
+                                designing and implementing high-quality,
+                                scalable mobile solutions. With extensive
+                                experience in React Native, TypeScript, and
+                                JavaScript. My background also includes a strong
+                                focus on software quality and architecture.{" "}
                             </Text>
                         </AboutMe>
                         <LocationContainer>
