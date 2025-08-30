@@ -19,12 +19,14 @@ import Map from "../../assets/icons/map.svg";
 import MeIllustration from "../../assets/images/me.png";
 import LinkedIn from "../../assets/icons/LinkedIn.svg";
 import Github from "../../assets/icons/github.svg";
-import Medium from "../../assets/icons/medium.svg";
+
 import Light from "../../assets/icons/light.svg";
-import { ThemeContext } from "../../utils/theme/theme";
+import Dark from "../../assets/icons/dark.svg";
+import { ThemeContext, ThemeType } from "../../utils/theme/theme";
 
 export function Intro() {
-    const { toggleTheme } = useContext(ThemeContext);
+    const { toggleTheme, theme } = useContext(ThemeContext);
+    const iconTheme = theme === ThemeType.secondary ? Dark : Light;
     return (
         <>
             <Header>
@@ -48,7 +50,7 @@ export function Intro() {
                             <SocialMediaItem src={Github} alt="Github_logo" />
                         </a>
                         <SocialMediaItem
-                            src={Light}
+                            src={iconTheme}
                             onClick={toggleTheme}
                             alt="change_theme_to_light"
                         />
